@@ -1,0 +1,74 @@
+.footer-section{
+    display: flex;
+    justify-content: space-around;
+    background-color: red;
+    margin-left: 8px;
+    margin-right: 8px;
+    align-items: center;
+    padding: 30px 0;
+    margin-bottom: 8px;
+    margin-top: 25px;
+    flex-wrap: wrap;
+}
+#a3, #a2{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+#a3 span, #a2 span{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#a3 i, #a2 i{
+    font-size: 27px;
+}
+.phoneBox{
+    width:26px;
+    height:26px;
+    display: inline-block;
+    border:2px solid white;
+    border-radius: 50%;
+    background-color: #fff;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.phoneBox span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#a1{
+    display: flex;
+    gap: 4px;
+    text-decoration: none; 
+    align-items: center;
+}
+#number{
+    display: inline;
+    color: #fff;
+    font-size: 15px; 
+}
+#a1 i{
+  font-size: 20px;
+  color: red
+}
+
+
+@media(max-width:598px){
+    .footer-section{
+        flex-direction: column;
+        background-color: transparent;
+        gap:10px;
+    }
+    .footer-section a{
+        border:1px solid #fff;
+        background-color: red;
+        width: 100%;
+        padding:10px 0;
+    }
+}
